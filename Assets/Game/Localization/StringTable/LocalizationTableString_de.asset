@@ -218,60 +218,12 @@ MonoBehaviour:
     m_Localized: 'Steuerung:'
     m_Metadata:
       m_Items: []
-  - m_Id: 90083544780763136
-    m_Localized: Upgrade
+  - m_Id: 94158707256193024
+    m_Localized: "H\xE4nde voll"
     m_Metadata:
       m_Items: []
-  - m_Id: 90090698824740864
-    m_Localized: Gesundheit
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740865
-    m_Localized: Angriff
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740866
-    m_Localized: Ausdauer
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740867
-    m_Localized: Bewegungsgeschwindigkeit
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740868
-    m_Localized: Gesundheitsregeneration
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740869
-    m_Localized: 'Haltung [G]'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099868266496
-    m_Localized: Haare
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209536
-    m_Localized: "K\xF6rper"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209537
-    m_Localized: BH
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209538
-    m_Localized: Handschuhe
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209539
-    m_Localized: Slip
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209540
-    m_Localized: Beine
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209541
-    m_Localized: Stiefel
+  - m_Id: 94158707205861376
+    m_Localized: Werfen
     m_Metadata:
       m_Items: []
   references:

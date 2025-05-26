@@ -51,6 +51,13 @@ namespace Game.Core.Architecture
 
             _projectContext = ProjectContext.Create();
             _projectContext.Initialize();
+
+
+            foreach (var s in _container)
+            {
+                s.OnProjectContextCreated(_projectContext);
+            }
+
             IsInitialized = true;
             Debug.Log("Project Initialized!");
         }
@@ -75,8 +82,12 @@ namespace Game.Core.Architecture
             _container.Add(new SaveService());
         }
 
-        public static T Get<T>() where T : BaseService
+        public static async UniTask<T> Get<T>() where T : BaseService
         {
+            if (!IsInitialized)
+            {
+                await UniTask.WaitUntil(() => IsInitialized);
+            }
             if (_container == null)
             {
                 throw new Exception("Firstly Initialize Project");

@@ -215,60 +215,12 @@ MonoBehaviour:
     m_Key: best
     m_Metadata:
       m_Items: []
-  - m_Id: 90083544780763136
-    m_Key: upgrade
+  - m_Id: 94158707205861376
+    m_Key: Throw
     m_Metadata:
       m_Items: []
-  - m_Id: 90090698824740864
-    m_Key: health
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740865
-    m_Key: attack
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740866
-    m_Key: stamina
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740867
-    m_Key: move_speed
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740868
-    m_Key: hp_regen
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740869
-    m_Key: special_stance
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099868266496
-    m_Key: hair
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209536
-    m_Key: body
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209537
-    m_Key: bra
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209538
-    m_Key: gloves
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209539
-    m_Key: panties
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209540
-    m_Key: legs
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209541
-    m_Key: boots
+  - m_Id: 94158707256193024
+    m_Key: HandsFull
     m_Metadata:
       m_Items: []
   m_Metadata:

@@ -218,60 +218,12 @@ MonoBehaviour:
     m_Localized: 'Control:'
     m_Metadata:
       m_Items: []
-  - m_Id: 90083544780763136
-    m_Localized: Actualizar
+  - m_Id: 94158707256193024
+    m_Localized: Manos llenas
     m_Metadata:
       m_Items: []
-  - m_Id: 90090698824740864
-    m_Localized: Salud
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740865
-    m_Localized: Ataque
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740866
-    m_Localized: Resistencia
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740867
-    m_Localized: Velocidad de movimiento
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740868
-    m_Localized: "Regeneraci\xF3n de salud"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740869
-    m_Localized: 'Postura [G]'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099868266496
-    m_Localized: Cabello
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209536
-    m_Localized: Cuerpo
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209537
-    m_Localized: Sujetador
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209538
-    m_Localized: Guantes
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209539
-    m_Localized: Bragas
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209540
-    m_Localized: Piernas
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209541
-    m_Localized: Botas
+  - m_Id: 94158707205861376
+    m_Localized: Lanzar
     m_Metadata:
       m_Items: []
   references:

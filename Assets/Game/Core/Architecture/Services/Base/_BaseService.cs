@@ -6,5 +6,6 @@ namespace Game.Core.Architecture.Services.Base
     {
         public abstract UniTask Initialize();
         public virtual void PostInitialize(){}
+        public virtual void OnProjectContextCreated(ProjectContext p){}
     }
 }

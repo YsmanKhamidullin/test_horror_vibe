@@ -11,12 +11,12 @@ namespace Game.Core.Utils
     {
 #if UNITY_EDITOR
 
-        private bool _isCursorVisible;
+        // private bool _isCursorVisible;
 
         private void Start()
         {
-            _isCursorVisible = false;
-            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            // _isCursorVisible = false;
+            // Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
         }
 #endif
 

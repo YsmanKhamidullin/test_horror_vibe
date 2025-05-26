@@ -1,3 +1,4 @@
+using Game.Core.Player;
 using Game.Core.Utils;
 using UnityEngine;
 
@@ -5,7 +6,22 @@ namespace Game.Core.Architecture
 {
     public class ProjectContext : MonoBehaviour
     {
+        public PlayerController PlayerController
+        {
+            get
+            {
+                if (_playerController == null)
+                {
+                    SetPlayer();
+                }
+
+                return _playerController;
+            }
+        }
+
         public static bool IsCreated { get; private set; }
+
+        private PlayerController _playerController;
 
         public static ProjectContext Create()
         {
@@ -18,7 +34,7 @@ namespace Game.Core.Architecture
 
         public void Initialize()
         {
-            CreatePlayer();
+            SetPlayer();
             CreateDebugger();
         }
 
@@ -29,8 +45,9 @@ namespace Game.Core.Architecture
 #endif
         }
 
-        private void CreatePlayer()
+        private void SetPlayer()
         {
+            _playerController = FindFirstObjectByType<PlayerController>(FindObjectsInactive.Exclude);
         }
     }
 }

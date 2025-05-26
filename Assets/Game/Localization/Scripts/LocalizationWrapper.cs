@@ -57,12 +57,13 @@ namespace Game.Localization.Scripts
             var text = LocalizationSettings.StringDatabase.GetLocalizedString(key);
             return text;
         }
+
         public static string GetLocalizationByKey(Locale locale, string key)
         {
             var text = LocalizationSettings.StringDatabase.GetLocalizedString(key, locale);
             return text;
         }
-    
+
         public static string GetEnglish(string key)
         {
             return GetLocalizationByKey(GetEnglish(), key);

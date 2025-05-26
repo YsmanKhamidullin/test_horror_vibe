@@ -218,60 +218,12 @@ MonoBehaviour:
     m_Localized: "Contr\xF4le :"
     m_Metadata:
       m_Items: []
-  - m_Id: 90083544780763136
-    m_Localized: "Mettre \xE0 niveau"
+  - m_Id: 94158707256193024
+    m_Localized: Les mains pleines
     m_Metadata:
       m_Items: []
-  - m_Id: 90090698824740864
-    m_Localized: "Sant\xE9"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740865
-    m_Localized: Attaque
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740866
-    m_Localized: Endurance
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740867
-    m_Localized: "Vitesse de d\xE9placement"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740868
-    m_Localized: "R\xE9g\xE9n\xE9ration de sant\xE9"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 90090698824740869
-    m_Localized: 'Posture [G]'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099868266496
-    m_Localized: Cheveux
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209536
-    m_Localized: Corps
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209537
-    m_Localized: Soutien-gorge
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209538
-    m_Localized: Gants
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209539
-    m_Localized: Culotte
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209540
-    m_Localized: Jambes
-    m_Metadata:
-      m_Items: []
-  - m_Id: 93394099910209541
-    m_Localized: Bottes
+  - m_Id: 94158707205861376
+    m_Localized: Lancer
     m_Metadata:
       m_Items: []
   references:
