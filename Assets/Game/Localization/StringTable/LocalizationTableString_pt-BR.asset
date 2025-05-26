@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizationTableString_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 48134596a41ae5b41a64bbdd3fdc601b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56342395725541376
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067328
+    m_Localized: Novo Jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067329
+    m_Localized: Carregar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067330
+    m_Localized: "Configura\xE7\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067331
+    m_Localized: Sair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067332
+    m_Localized: "\xC1udio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261632
+    m_Localized: Tela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261633
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261634
+    m_Localized: "Avan\xE7ado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261635
+    m_Localized: Efeitos sonoros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261636
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261637
+    m_Localized: "Resolu\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261638
+    m_Localized: Modo de tela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261639
+    m_Localized: Idioma da interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261644
+    m_Localized: Tela cheia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261645
+    m_Localized: Modo janela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261646
+    m_Localized: Sem bordas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261647
+    m_Localized: "Salvamento autom\xE1tico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261648
+    m_Localized: Trabalho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261649
+    m_Localized: Presente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261650
+    m_Localized: Conversar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261651
+    m_Localized: Loja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261652
+    m_Localized: Personalizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261655
+    m_Localized: Voltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261656
+    m_Localized: De novo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261657
+    m_Localized: Enviar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261683
+    m_Localized: Atual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261684
+    m_Localized: Comprar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261685
+    m_Localized: Salvar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261686
+    m_Localized: Menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261687
+    m_Localized: Anterior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261688
+    m_Localized: "Pr\xF3ximo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61114920414212096
+    m_Localized: Cancelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085697
+    m_Localized: Selecionar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085696
+    m_Localized: Vendido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61507675330179072
+    m_Localized: Confirmar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61968819698266112
+    m_Localized: Concluir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83960302139600896
+    m_Localized: Tem certeza?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84645113120419840
+    m_Localized: Feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84945140590047232
+    m_Localized: "Obtenha a vers\xE3o completa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84953491537391616
+    m_Localized: "Na vers\xE3o completa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84978069882007552
+    m_Localized: "A vers\xE3o completa\\nn\xE3o tem temporizador!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057547862016
+    m_Localized: "Pontua\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057598193664
+    m_Localized: Melhor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512676458496
+    m_Localized: Perfeito!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984448
+    m_Localized: 'Recompensa:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984449
+    m_Localized: Salvar/Carregar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984450
+    m_Localized: Voltar ao menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984451
+    m_Localized: Sair do jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984452
+    m_Localized: 'Controle:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90083544780763136
+    m_Localized: Atualizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740864
+    m_Localized: "Sa\xFAde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740865
+    m_Localized: Ataque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740866
+    m_Localized: Vigor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740867
+    m_Localized: Velocidade de movimento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740868
+    m_Localized: "Regenera\xE7\xE3o de sa\xFAde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740869
+    m_Localized: 'Postura [G]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099868266496
+    m_Localized: Cabelo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209536
+    m_Localized: Corpo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209537
+    m_Localized: "Suti\xE3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209538
+    m_Localized: Luvas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209539
+    m_Localized: Calcinha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209540
+    m_Localized: Pernas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209541
+    m_Localized: Botas
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

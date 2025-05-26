@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizationTableString_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 48134596a41ae5b41a64bbdd3fdc601b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56342395725541376
+    m_Localized: Continuer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067328
+    m_Localized: Nouvelle Partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067329
+    m_Localized: Charger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067330
+    m_Localized: "Param\xE8tres"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067331
+    m_Localized: Quitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067332
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261632
+    m_Localized: "\xC9cran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261633
+    m_Localized: Langue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261634
+    m_Localized: "Avanc\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261635
+    m_Localized: Sfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261636
+    m_Localized: Musique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261637
+    m_Localized: "R\xE9solution"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261638
+    m_Localized: "Mode \xE9cran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261639
+    m_Localized: Langue de l'interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261644
+    m_Localized: "Plein \xE9cran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261645
+    m_Localized: "Fen\xEAtr\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261646
+    m_Localized: Sans bordure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261647
+    m_Localized: Sauvegarde automatique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261648
+    m_Localized: Travail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261649
+    m_Localized: Cadeau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261650
+    m_Localized: Parler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261651
+    m_Localized: Boutique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261652
+    m_Localized: Personnaliser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261655
+    m_Localized: Retour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261656
+    m_Localized: Encore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261657
+    m_Localized: Envoyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261683
+    m_Localized: Actuel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261684
+    m_Localized: Acheter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261685
+    m_Localized: Sauvegarder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261686
+    m_Localized: Menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261687
+    m_Localized: "Pr\xE9c."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261688
+    m_Localized: Suiv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61114920414212096
+    m_Localized: Annuler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085697
+    m_Localized: "S\xE9lectionner"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085696
+    m_Localized: Vendu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61507675330179072
+    m_Localized: Confirmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61968819698266112
+    m_Localized: Terminer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83960302139600896
+    m_Localized: "\xCAtes-vous s\xFBr ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84645113120419840
+    m_Localized: Feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84945140590047232
+    m_Localized: "Obtenez la version compl\xE8te !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84953491537391616
+    m_Localized: "Dans la version compl\xE8te"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84978069882007552
+    m_Localized: "La version compl\xE8te\\nn'a pas de minuteur !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057547862016
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057598193664
+    m_Localized: Meilleur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512676458496
+    m_Localized: Parfait !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984448
+    m_Localized: "R\xE9compense :"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984449
+    m_Localized: Sauvegarder/Charger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984450
+    m_Localized: Retour au menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984451
+    m_Localized: Quitter le jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984452
+    m_Localized: "Contr\xF4le :"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90083544780763136
+    m_Localized: "Mettre \xE0 niveau"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740864
+    m_Localized: "Sant\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740865
+    m_Localized: Attaque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740866
+    m_Localized: Endurance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740867
+    m_Localized: "Vitesse de d\xE9placement"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740868
+    m_Localized: "R\xE9g\xE9n\xE9ration de sant\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740869
+    m_Localized: 'Posture [G]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099868266496
+    m_Localized: Cheveux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209536
+    m_Localized: Corps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209537
+    m_Localized: Soutien-gorge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209538
+    m_Localized: Gants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209539
+    m_Localized: Culotte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209540
+    m_Localized: Jambes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209541
+    m_Localized: Bottes
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

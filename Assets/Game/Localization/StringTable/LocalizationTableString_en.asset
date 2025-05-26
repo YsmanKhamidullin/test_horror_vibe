@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizationTableString_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 48134596a41ae5b41a64bbdd3fdc601b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56342395725541376
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067328
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067329
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067330
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067331
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067332
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261632
+    m_Localized: Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261633
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261634
+    m_Localized: Advanced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261635
+    m_Localized: Sfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261636
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261637
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261638
+    m_Localized: Screen Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261639
+    m_Localized: Interface Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261644
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261645
+    m_Localized: Window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261646
+    m_Localized: Borderless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261647
+    m_Localized: Auto Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261648
+    m_Localized: Work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261649
+    m_Localized: Gift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261650
+    m_Localized: Talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261651
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261652
+    m_Localized: Customize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261655
+    m_Localized: Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261656
+    m_Localized: Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261657
+    m_Localized: Send
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261683
+    m_Localized: Current
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261684
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261685
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261686
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261687
+    m_Localized: Prev.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261688
+    m_Localized: Next.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61114920414212096
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085696
+    m_Localized: Sold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085697
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61507675330179072
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61968819698266112
+    m_Localized: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83960302139600896
+    m_Localized: Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84645113120419840
+    m_Localized: Feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84945140590047232
+    m_Localized: Get The Full Version!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84953491537391616
+    m_Localized: In Full Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84978069882007552
+    m_Localized: The full version\nhas no timer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057547862016
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057598193664
+    m_Localized: Best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512676458496
+    m_Localized: Perfect!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984448
+    m_Localized: 'Reward:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984449
+    m_Localized: Save/Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984450
+    m_Localized: Back To Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984451
+    m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984452
+    m_Localized: 'Control:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90083544780763136
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740864
+    m_Localized: Health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740865
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740866
+    m_Localized: Stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740867
+    m_Localized: Movement speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740868
+    m_Localized: Health Regen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740869
+    m_Localized: 'Stance [G]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099868266496
+    m_Localized: Hair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209536
+    m_Localized: Body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209537
+    m_Localized: Bra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209538
+    m_Localized: Gloves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209539
+    m_Localized: Panties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209540
+    m_Localized: Legs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209541
+    m_Localized: Boots
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

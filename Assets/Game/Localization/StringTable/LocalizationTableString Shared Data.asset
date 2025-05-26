@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LocalizationTableString Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: LocalizationTableString
+  m_TableCollectionNameGuidString: 48134596a41ae5b41a64bbdd3fdc601b
+  m_Entries:
+  - m_Id: 56342395725541376
+    m_Key: button_continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067328
+    m_Key: button_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067329
+    m_Key: button_load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067330
+    m_Key: button_settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067331
+    m_Key: button_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395780067332
+    m_Key: settings_audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261632
+    m_Key: settings_screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261633
+    m_Key: settings_language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261634
+    m_Key: settings_advanced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261635
+    m_Key: settings_sfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261636
+    m_Key: settings_music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261637
+    m_Key: settings_resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261638
+    m_Key: settings_screen_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261639
+    m_Key: settings_interface_language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261644
+    m_Key: settings_fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261645
+    m_Key: settings_windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261646
+    m_Key: settings_borderless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261647
+    m_Key: save_auto_save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261648
+    m_Key: lobby_work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261649
+    m_Key: lobby_gift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261650
+    m_Key: lobby_talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261651
+    m_Key: lobby_shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261652
+    m_Key: lobby_customize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512676458496
+    m_Key: perfect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984448
+    m_Key: reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261655
+    m_Key: button_return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261656
+    m_Key: button_again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261657
+    m_Key: button_send
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261683
+    m_Key: button_current
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261684
+    m_Key: button_buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261685
+    m_Key: button_save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261686
+    m_Key: button_main_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261687
+    m_Key: button_prev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56342395784261688
+    m_Key: button_next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984449
+    m_Key: save_load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984450
+    m_Key: back_to_main_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984451
+    m_Key: button_exit_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61114920414212096
+    m_Key: button_cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085696
+    m_Key: button_sold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61164666013085697
+    m_Key: button_select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61507675330179072
+    m_Key: button_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61968819698266112
+    m_Key: button_complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83960302139600896
+    m_Key: button_are_you_sure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080512730984452
+    m_Key: control_double_dots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84645113120419840
+    m_Key: give_feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84945140590047232
+    m_Key: get_full_version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84953491537391616
+    m_Key: in_full_version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84978069882007552
+    m_Key: no_timer_in_full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057547862016
+    m_Key: score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85012057598193664
+    m_Key: best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90083544780763136
+    m_Key: upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740864
+    m_Key: health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740865
+    m_Key: attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740866
+    m_Key: stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740867
+    m_Key: move_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740868
+    m_Key: hp_regen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90090698824740869
+    m_Key: special_stance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099868266496
+    m_Key: hair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209536
+    m_Key: body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209537
+    m_Key: bra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209538
+    m_Key: gloves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209539
+    m_Key: panties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209540
+    m_Key: legs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93394099910209541
+    m_Key: boots
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1410841848312496153
+  references:
+    version: 2
+    RefIds:
+    - rid: 1410841848312496153
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1725843135445

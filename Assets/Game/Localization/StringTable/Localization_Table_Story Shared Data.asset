@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Localization_Table_Story Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Localization_Table_Story
+  m_TableCollectionNameGuidString: a39118c387e68ad478a9a72bed94c35d
+  m_Entries:
+  - m_Id: 82708236901543936
+    m_Key: OnboardingWelcome_text_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543937
+    m_Key: OnboardingWelcome_text_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543938
+    m_Key: OnboardingWelcome_text_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543939
+    m_Key: OnboardingWelcome_text_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543940
+    m_Key: OnboardingWelcome_text_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543941
+    m_Key: OnboardingWelcome_text_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543942
+    m_Key: OnboardingWelcome_text_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543943
+    m_Key: OnboardingWelcome_text_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543946
+    m_Key: Kait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935291113472
+    m_Key: OnboardingBuyChat_text_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862208
+    m_Key: OnboardingBuyChat_text_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862209
+    m_Key: OnboardingBuyChat_text_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862210
+    m_Key: OnboardingBuyChat_text_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862211
+    m_Key: OnboardingBuyChat_text_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862212
+    m_Key: OnboardingBuyChat_text_5
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1410841925328044045
+  references:
+    version: 2
+    RefIds:
+    - rid: 1410841925328044045
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1726140983698

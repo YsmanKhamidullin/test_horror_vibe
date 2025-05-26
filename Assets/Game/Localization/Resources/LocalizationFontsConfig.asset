@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ce05a26395cb348b6d2b4dad6cfbc1, type: 3}
+  m_Name: LocalizationFontsConfig
+  m_EditorClassIdentifier: 
+  EnglishLocale: {fileID: 11400000, guid: 17ff038f28f918045887c98126da7e5d, type: 2}
+  _localeFontPairs:
+  - Locale: {fileID: 11400000, guid: 17ff038f28f918045887c98126da7e5d, type: 2}
+    Font: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
+  - Locale: {fileID: 11400000, guid: cf6f22d61d82c8e45b26298434d488df, type: 2}
+    Font: {fileID: 11400000, guid: 17d705036a7d6c94197f6a872f005c37, type: 2}
+  - Locale: {fileID: 11400000, guid: ecf8bfaa90c154a4e8bb2c5b3755461b, type: 2}
+    Font: {fileID: 11400000, guid: 12213027440fabf438204bafc339b633, type: 2}
+  - Locale: {fileID: 11400000, guid: 309d00d6e82e50048942ee81e4ac6f88, type: 2}
+    Font: {fileID: 11400000, guid: ea1dad427eb28a24db01fedaf7bde0d2, type: 2}
+  - Locale: {fileID: 11400000, guid: 85a8b6cc1c24126448fc121f8986252f, type: 2}
+    Font: {fileID: 11400000, guid: 0e956afaacfbe8645b251482868918b7, type: 2}
+  - Locale: {fileID: 11400000, guid: 37e7b0fe47fe9b041911c83c6c1fb21a, type: 2}
+    Font: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
+  - Locale: {fileID: 11400000, guid: 492bd82a7ea730742ba3d0f6e76a328a, type: 2}
+    Font: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
+  - Locale: {fileID: 11400000, guid: 115e60df03b51c047a61bea3578f3c56, type: 2}
+    Font: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
+  - Locale: {fileID: 11400000, guid: b847211166ca90a42952412da8cca33a, type: 2}
+    Font: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
+  _defaultFont: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}

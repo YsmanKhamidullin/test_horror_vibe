@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_Table_Story_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: a39118c387e68ad478a9a72bed94c35d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 82708236901543938
+    m_Localized: "\xA1Te ayudar\xE9 a instalarte aqu\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543939
+    m_Localized: "Me encantar\xEDa charlar m\xE1s, pero dej\xE9moslo para la pr\xF3xima..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543940
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543941
+    m_Localized: "Para conquistar el coraz\xF3n de una chica, necesitas dinero."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543942
+    m_Localized: Vivimos en un mundo cruel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543943
+    m_Localized: "\xA1No te preocupes, el trabajo no es tan dif\xEDcil!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543946
+    m_Localized: Kate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543937
+    m_Localized: Es la primera vez que nos vemos, me llamo Kate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543936
+    m_Localized: "\xA1Hola!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935291113472
+    m_Localized: "\xA1Buen trabajo! En realidad, trabajar es f\xE1cil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862208
+    m_Localized: Mientras tanto, yo tengo que trabajar como una condenada solo para
+      juntar un poco de oro...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862209
+    m_Localized: Me distraje un poco...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862210
+    m_Localized: "\xA1Vale, ahora que tenemos dinero, gast\xE9moslo en charlar con
+      una chica!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862211
+    m_Localized: "El resto lo resolver\xE1s t\xFA solo. Lo siento, pero tengo que
+      irme."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862212
+    m_Localized: "Espero que nos volvamos a ver. \xA1Buena suerte!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_Table_Story_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: a39118c387e68ad478a9a72bed94c35d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 82708236901543938
+    m_Localized: "Je vais t'aider \xE0 t'installer ici !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543939
+    m_Localized: "J'aimerais bien bavarder plus, mais gardons \xE7a pour la prochaine
+      fois..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543940
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543941
+    m_Localized: "Pour conqu\xE9rir le c\u0153ur d'une fille, il faut de l'argent."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543942
+    m_Localized: Nous vivons dans un monde cruel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543943
+    m_Localized: "Ne t'inqui\xE8te pas, le travail n'est pas si difficile !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543946
+    m_Localized: Kate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543937
+    m_Localized: "Nous nous rencontrons pour la premi\xE8re fois, je m'appelle Kate."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82708236901543936
+    m_Localized: Salut !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935291113472
+    m_Localized: Excellent travail ! En fait, travailler est facile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862208
+    m_Localized: "Pendant ce temps, je dois trimer comme une damn\xE9e pour amasser
+      un peu d'or..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862209
+    m_Localized: Je me suis un peu distraite...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862210
+    m_Localized: "OK, maintenant qu'on a de l'argent, d\xE9pensons-le pour discuter
+      avec une fille !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862211
+    m_Localized: "Pour le reste, tu te d\xE9brouilleras seul. D\xE9sol\xE9, mais
+      je dois y aller."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83074935328862212
+    m_Localized: "J'esp\xE8re qu'on se reverra. Bonne chance !"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
