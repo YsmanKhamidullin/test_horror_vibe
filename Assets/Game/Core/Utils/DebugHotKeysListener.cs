@@ -24,11 +24,11 @@ namespace Game.Core.Utils
         {
 #if UNITY_EDITOR
 
-            if (Input.GetKeyDown(KeyCode.Plus))
+            if (Input.GetKey(KeyCode.Equals))
             {
                 Time.timeScale = 5;
             }
-            else if (Input.GetKeyDown(KeyCode.Minus))
+            else if (Input.GetKey(KeyCode.Minus))
             {
                 Time.timeScale = 0.25f;
             }

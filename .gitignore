@@ -1,8 +1,8 @@
-/[Aa]ssets/Flooded_Grounds/*
+/[Aa]ssets/Versatile Studio Assets/*
 /[Aa]ssets/LeartesStudios/*
+/[Aa]ssets/SkySeries Freebie/*
 /[Aa]ssets/Game/Art/Models/*
-
-C:\Projects\test_horror\
+*.mp4
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
