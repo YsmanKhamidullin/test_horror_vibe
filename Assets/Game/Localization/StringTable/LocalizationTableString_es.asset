@@ -246,6 +246,18 @@ MonoBehaviour:
     m_Localized: "Cerrar men\xFA"
     m_Metadata:
       m_Items: []
+  - m_Id: 94513425337806848
+    m_Localized: "Ese d\xEDa estaba lloviendo..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944192
+    m_Localized: "Y a\xFAn as\xED, alguien decidi\xF3 tomar caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944193
+    m_Localized: "No s\xE9 qu\xE9 me pas\xF3 esa noche"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -54,8 +54,10 @@ public static class GameResources
             public static AudioClip A_Concrete_10 => Resources.Load<AudioClip>("AudioClip/StepSound/Concrete-10");
             public static AudioClip A_Concrete_11 => Resources.Load<AudioClip>("AudioClip/StepSound/Concrete-11");
         }
+        public static AudioClip A_ambient => Resources.Load<AudioClip>("AudioClip/ambient");
         public static AudioClip A_MiniGameWin => Resources.Load<AudioClip>("AudioClip/MiniGameWin");
         public static AudioClip A_Pod_flap_sound => Resources.Load<AudioClip>("AudioClip/Pod flap sound");
+        public static AudioClip A_Police_Siren => Resources.Load<AudioClip>("AudioClip/Police Siren");
     }
     public static class _PhysicMaterial
     {

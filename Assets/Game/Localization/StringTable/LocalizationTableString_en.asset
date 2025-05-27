@@ -247,6 +247,18 @@ MonoBehaviour:
     m_Localized: Close menu
     m_Metadata:
       m_Items: []
+  - m_Id: 94513425337806848
+    m_Localized: It was raining that day...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944192
+    m_Localized: And yet, someone decided to have coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944193
+    m_Localized: "I don\u2019t know what came over me that night"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

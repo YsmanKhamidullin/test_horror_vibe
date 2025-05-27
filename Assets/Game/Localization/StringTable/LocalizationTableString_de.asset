@@ -248,6 +248,18 @@ MonoBehaviour:
     m_Localized: "Men\xFC schlie\xDFen"
     m_Metadata:
       m_Items: []
+  - m_Id: 94513425337806848
+    m_Localized: An dem Tag regnete es...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944192
+    m_Localized: Und doch beschloss jemand, Kaffee zu trinken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944193
+    m_Localized: "Ich wei\xDF nicht, was in jener Nacht in mich gefahren ist"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

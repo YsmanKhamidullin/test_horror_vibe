@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 using Game.Core.Utils;
+using Game.Localization.Scripts;
 using Game.VisualNovel.Core.Tools;
 using Game.VisualNovel.Scripts.Attributes;
 using NaughtyAttributes;
@@ -14,6 +15,9 @@ namespace Game.VisualNovel.Core.UI
 {
     public class Dialogue : MonoBehaviour
     {
+        [field: SerializeField]
+        public string TextKey { get; set; }
+
         [TextArea]
         public string Text;
 
@@ -22,6 +26,7 @@ namespace Game.VisualNovel.Core.UI
 
         [field: SerializeField]
         public List<DialogueCharacter> VisibleCharacters { get; private set; }
+
 
         [SerializeField]
         private List<Image> _charactersTemplate;
@@ -63,7 +68,7 @@ namespace Game.VisualNovel.Core.UI
                 return;
             }
 
-            _text.SetText(Text, Text.Length);
+            _text.SetText(LocalizationWrapper.Get(TextKey), Text.Length);
         }
 
         private void UpdateTextColor()

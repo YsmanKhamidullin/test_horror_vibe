@@ -100,6 +100,10 @@ PrefabInstance:
       propertyPath: Text
       value: Oh, what a rain. Good evening, do you have any coffee?
       objectReference: {fileID: 0}
+    - target: {fileID: 4445451969200472578, guid: abf6d2bf1c43fd142ad76ed516543c56, type: 3}
+      propertyPath: <TextKey>k__BackingField
+      value: 01_Npc_text_0
+      objectReference: {fileID: 0}
     - target: {fileID: 5924684187724265858, guid: abf6d2bf1c43fd142ad76ed516543c56, type: 3}
       propertyPath: m_Name
       value: Dialogue
@@ -233,6 +237,10 @@ PrefabInstance:
       propertyPath: Text
       value: "I want a regular americano. Yeah, I know, it\u2019s a challenge for
         you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445451969200472578, guid: abf6d2bf1c43fd142ad76ed516543c56, type: 3}
+      propertyPath: <TextKey>k__BackingField
+      value: 01_Npc_text_1
       objectReference: {fileID: 0}
     - target: {fileID: 5924684187724265858, guid: abf6d2bf1c43fd142ad76ed516543c56, type: 3}
       propertyPath: m_Name

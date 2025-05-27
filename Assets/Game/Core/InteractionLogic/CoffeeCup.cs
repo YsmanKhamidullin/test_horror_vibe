@@ -1,5 +1,7 @@
 ﻿using System;
+using Cysharp.Threading.Tasks;
 using Game.Core.InteractItems;
+using Game.Core.Npc;
 using Game.Localization.Scripts;
 using UnityEngine;
 
@@ -8,7 +10,7 @@ namespace Game.Core.InteractionLogic
     public class CoffeeCup : Holdable, Iinteractable
     {
         public Animator CoffeeAnimator;
-        
+
         public bool IsFilled { get; private set; }
 
         public bool IsCapEquiped { get; private set; }
@@ -21,6 +23,17 @@ namespace Game.Core.InteractionLogic
 
         [SerializeField]
         private Vector3 _holdRot;
+
+        private void OnCollisionEnter(Collision other)
+        {
+            if (other.gameObject.TryGetComponent<CoffeeNpc>(out var npc))
+            {
+                if (IsFilled && IsCapEquiped)
+                {
+                    npc.OnCoffeeCapCollision().Forget();
+                }
+            }
+        }
 
         public void Clicked(Action removedFromHand)
         {

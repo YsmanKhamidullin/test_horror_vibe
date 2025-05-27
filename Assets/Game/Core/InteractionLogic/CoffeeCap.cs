@@ -1,4 +1,5 @@
 ﻿using System;
+using Cysharp.Threading.Tasks;
 using Game.Core.InteractItems;
 using Game.Core.Npc;
 using Game.Localization.Scripts;
@@ -23,13 +24,6 @@ namespace Game.Core.InteractionLogic
                 {
                     cup.EnableCap();
                     gameObject.SetActive(false);
-                }
-            }
-            else if (other.gameObject.TryGetComponent<CoffeeNpc>(out var npc))
-            {
-                if (cup.IsFilled && cup.IsCapEquiped)
-                {
-                    npc.OnCoffeeCapCollision();
                 }
             }
         }

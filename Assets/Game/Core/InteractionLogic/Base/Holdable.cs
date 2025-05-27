@@ -32,9 +32,7 @@ namespace Game.Core.InteractItems
 
         protected async virtual void Start()
         {
-            var a = await Project.Get<GameWindowsService>();
-            _canvasWindow = a.Get<CanvasWindow>();
-
+            _canvasWindow = Project.ProjectContext.PlayerController.CanvasWindow;
             source = GetComponent<AudioSource>();
             source.playOnAwake = false;
             source.loop = false;

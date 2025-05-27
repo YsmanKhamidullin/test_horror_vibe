@@ -143,7 +143,7 @@ namespace Game.VisualNovel.Core.UI
             for (int i = 0; i < _dialogues.Count; i++)
             {
                 string lK = rootName + $"_text_{i}";
-                _dialogues[i].Text = LocalizationWrapper.Get(lK);
+                _dialogues[i].TextKey = lK;
                 _dialogues[i].UpdateAll();
             }
         }

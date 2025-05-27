@@ -13,13 +13,11 @@ namespace Game.VisualNovel.Core
 {
     public class DialogueSequenceWrapper : MonoBehaviour
     {
-        private GameWindowsService _canvasWindowService;
         private CanvasWindow _canvasWindow;
         
         public async UniTask StartSequence(DialogueSequence dialogueSequence, Npc npc = null, bool isSkipFade = true)
         {
-            _canvasWindowService = await Project.Get<GameWindowsService>();
-            _canvasWindow = _canvasWindowService.Get<CanvasWindow>();
+            _canvasWindow = Project.ProjectContext.PlayerController.CanvasWindow;
             
             Debug.Log("Dialog");
             var instance = InstantiateDefault(dialogueSequence);

@@ -16,11 +16,14 @@ namespace Game.Core.Player
         public event Action OnPutObject;
         public event Action OnThrowObject;
 
-        [SerializeField]
-        private interactableObjectUI _interactObject;
-
         [field: SerializeField]
         public bool IsPlayerPaused { get; private set; }
+
+        [field: SerializeField]
+        public CanvasWindow CanvasWindow { get; private set; }
+
+        [SerializeField]
+        private interactableObjectUI _interactObject;
 
         [SerializeField]
         private Transform _handPosition;
@@ -33,14 +36,10 @@ namespace Game.Core.Player
 
         protected Iinteractable _objectToInteract;
         private InputService _inputService;
-        private CanvasWindow _canvasWindow;
 
         protected async void Start()
         {
             _inputService = await Project.Get<InputService>();
-            var a = await Project.Get<GameWindowsService>();
-            _canvasWindow = a.Get<CanvasWindow>();
-
             _interactObject.FoundInteractObject += FoundInteractObject;
             _inputService.OnInteract += Interact;
             _inputService.OnPut += PutItem;
@@ -74,7 +73,7 @@ namespace Game.Core.Player
 
             _currentHoldingObject.Throw(_cameraTransform, 50);
             _currentHoldingObject = null;
-            _canvasWindow.ClearControlsText();
+            CanvasWindow.ClearControlsText();
             this.OnPutObject?.Invoke();
         }
 
@@ -87,13 +86,13 @@ namespace Game.Core.Player
 
             _currentHoldingObject.Throw(_cameraTransform);
             _currentHoldingObject = null;
-            _canvasWindow.ClearControlsText();
+            CanvasWindow.ClearControlsText();
             this.OnThrowObject?.Invoke();
         }
 
         private void Interact()
         {
-            if (!_canvasWindow._inCoversation && _objectToInteract != null)
+            if (!CanvasWindow._inCoversation && _objectToInteract != null)
             {
                 _objectToInteract.Clicked(delegate { _currentHoldingObject = null; });
             }
@@ -110,7 +109,7 @@ namespace Game.Core.Player
                 {
                     var text = LocalizationWrapper.Get("Put") + "[F]" + "\n" +
                                LocalizationWrapper.Get("Throw") + "[G]";
-                    _canvasWindow.ShowControlsText(text);
+                    CanvasWindow.ShowControlsText(text);
                 }
 
                 this.OnHoldObject?.Invoke();
@@ -124,7 +123,7 @@ namespace Game.Core.Player
 
         public void RemoveHandObject()
         {
-            _canvasWindow.ClearControlsText();
+            CanvasWindow.ClearControlsText();
             _currentHoldingObject = null;
         }
     }

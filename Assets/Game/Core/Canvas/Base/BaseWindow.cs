@@ -17,15 +17,13 @@ namespace Game.Core.Canvas.Base
         private RectTransform _windowContent;
 
         protected WindowAnimations _windowAnimations;
-
-        private GameWindowsService _gameWindowsService;
+        protected CanvasWindow _canvasWindow;
 
         protected virtual async void Awake()
         {
             _windowAnimations = new WindowAnimations();
             _windowAnimations.Initialize(_windowContent);
-            _gameWindowsService = await Project.Get<GameWindowsService>();
-            _gameWindowsService.Register(this);
+            _canvasWindow = Project.ProjectContext.PlayerController.CanvasWindow;
         }
 
         public void HideByCanvasGroup()
@@ -65,11 +63,11 @@ namespace Game.Core.Canvas.Base
 
         public async UniTask Show()
         {
-            _gameWindowsService.Get<CanvasWindow>().DisableRaycast();
+            _canvasWindow.DisableRaycast();
             await OnBeforeShow();
             gameObject.SetActive(true);
             await OnAfterShow();
-            _gameWindowsService.Get<CanvasWindow>().EnableRaycast();
+            _canvasWindow.EnableRaycast();
         }
 
         protected virtual async UniTask OnBeforeShow()
@@ -82,11 +80,11 @@ namespace Game.Core.Canvas.Base
 
         public virtual async UniTask Hide()
         {
-            _gameWindowsService.Get<CanvasWindow>().DisableRaycast();
+            _canvasWindow.DisableRaycast();
             await OnBeforeHide();
             gameObject.SetActive(false);
             await OnAfterHide();
-            _gameWindowsService.Get<CanvasWindow>().EnableRaycast();
+            _canvasWindow.EnableRaycast();
         }
 
         protected virtual async UniTask OnBeforeHide()

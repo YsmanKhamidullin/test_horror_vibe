@@ -247,6 +247,18 @@ MonoBehaviour:
     m_Localized: Fermer le menu
     m_Metadata:
       m_Items: []
+  - m_Id: 94513425337806848
+    m_Localized: "Il pleuvait ce jour-l\xE0..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944192
+    m_Localized: "Pourtant, quelqu'un a d\xE9cid\xE9 de prendre un caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94513425383944193
+    m_Localized: "Je ne sais pas ce qui m'a pris cette nuit-l\xE0"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -3,6 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Game.Core.Canvas.Base
@@ -29,8 +30,19 @@ namespace Game.Core.Canvas.Base
         [SerializeField]
         private TMP_Text _subText;
 
+        [SerializeField]
+        private TrueEnding _trueEnding;
+
         private string _storedControlsText;
         private CancellationTokenSource _subTextCts;
+
+
+        protected void OnDestroy()
+        {
+            _subTextCts?.Cancel();
+            _subTextCts?.Dispose();
+        }
+
 
         public void DisableRaycast()
         {
@@ -40,6 +52,11 @@ namespace Game.Core.Canvas.Base
         public void EnableRaycast()
         {
             _graphicRaycaster.enabled = true;
+        }
+
+        public void ShowFinalText()
+        {
+            _trueEnding.Animate().Forget();
         }
 
         public void ClearControlsText()
@@ -88,12 +105,6 @@ namespace Game.Core.Canvas.Base
             _subBackgroundShadow.enabled = true;
 
             DeactivateSubAfterTimeAsync(forTime, _subTextCts.Token).Forget();
-        }
-
-        protected void OnDestroy()
-        {
-            _subTextCts?.Cancel();
-            _subTextCts?.Dispose();
         }
     }
 }

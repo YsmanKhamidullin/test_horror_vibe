@@ -1,7 +1,4 @@
 ﻿using System.Collections.Generic;
-using Cysharp.Threading.Tasks;
-using DG.Tweening;
-using Game.Core.Architecture.Services.Base;
 using Game.Core.Utils;
 using NaughtyAttributes;
 using UnityEngine;
@@ -10,7 +7,12 @@ namespace Game.Core.Architecture.Services
 {
     public class AudioService : MonoBehaviour
     {
-        // private AudioClip Money => GameResources._AudioClip.A_MiniGameWin;
+        [field: SerializeField]
+        public AudioSource PoliceSiren { get; private set; }
+
+        [field: SerializeField]
+
+        public AudioSource Money { get; private set; }
 
         [SerializeField]
         private List<AudioClip> _keyClips;

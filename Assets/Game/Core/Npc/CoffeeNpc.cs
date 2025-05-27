@@ -6,6 +6,7 @@ using Game.Core.Architecture.Services;
 using Game.Core.Canvas;
 using Game.Core.Canvas.Base;
 using Game.Core.Player;
+using Game.Localization.Scripts;
 using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.AI;
@@ -34,8 +35,7 @@ namespace Game.Core.Npc
 
         private async void Start()
         {
-            var gw = await Project.Get<GameWindowsService>();
-            _canvasWindow = gw.Get<CanvasWindow>();
+            _canvasWindow = Project.ProjectContext.PlayerController.CanvasWindow;
             StartSequence().Forget();
         }
 
@@ -44,15 +44,19 @@ namespace Game.Core.Npc
         {
             StartSequence().Forget();
         }
-        
+
         private async UniTask StartSequence()
         {
             // Wait for the entrance door to open and NPC to move to first point
+            _canvasWindow.ShowSubText(LocalizationWrapper.Get("sub_coffee_0"),2.5f);
+
             await UniTask.WaitForSeconds(2f);
 
             await MoveToPoint(_walkPoints[0]);
             _entranceDoor.Open();
             await UniTask.WaitForSeconds(0.7f);
+
+            _canvasWindow.ShowSubText(LocalizationWrapper.Get("sub_coffee_1"),3f);
 
             // Move to second point and close the door
             await MoveToPoint(_walkPoints[1]);
@@ -69,9 +73,12 @@ namespace Game.Core.Npc
 
             await Project.ProjectContext.DialogueSequenceWrapper.StartSequence(GameResources._VisualNovel.D__01_Npc);
             await MoveToPoint(_walkPoints[3]);
-            
+
             await RotateToPlayer();
+            _isEnd = true;
         }
+
+        private bool _isEnd;
 
         private async UniTask MoveToPoint(Transform targetPoint)
         {
@@ -100,7 +107,7 @@ namespace Game.Core.Npc
             {
                 var targetRotation = Quaternion.LookRotation(directionToPlayer);
                 float rotationSpeed = 120f; // degrees per second
-                
+
                 while (Quaternion.Angle(transform.rotation, targetRotation) > 0.1f)
                 {
                     transform.rotation = Quaternion.RotateTowards(
@@ -121,15 +128,29 @@ namespace Game.Core.Npc
 
         private bool _isCollidedWithCoffee;
 
-        public void OnCoffeeCapCollision()
+        [SerializeField]
+        private Car _car;
+
+        public async UniTask OnCoffeeCapCollision()
         {
-            if (_isCollidedWithCoffee)
+            if (_isEnd && _isCollidedWithCoffee)
             {
                 return;
             }
 
+            _canvasWindow.ShowSubText(LocalizationWrapper.Get("sub_coffee_2"));
             _isCollidedWithCoffee = true;
             _canvasWindow.MoneyUi.Show();
+            _animator.SetTrigger("Dead");
+            
+            enabled = false;
+            _navMeshAgent.enabled = false;
+            
+            await UniTask.WaitForSeconds(3f);
+            await _car.MoveCarToEntrance();
+
+            await UniTask.WaitForSeconds(2f);
+            _canvasWindow.ShowFinalText();
         }
     }
 }
