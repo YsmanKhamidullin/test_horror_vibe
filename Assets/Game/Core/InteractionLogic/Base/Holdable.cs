@@ -2,6 +2,7 @@
 using Game.Core.Architecture;
 using Game.Core.Architecture.Services;
 using Game.Core.Canvas;
+using Game.Core.Canvas.Base;
 using Game.Core.Player;
 using UnityEngine;
 
@@ -11,13 +12,13 @@ namespace Game.Core.InteractItems
     {
         public AudioClip[] sfxSoundsArray;
 
-        internal AudioSource source;
+        protected AudioSource source;
 
         private const float delayInThrowSound = 0.1f;
 
         public Rigidbody rBody;
 
-        internal PlayerController playerController;
+        protected PlayerController playerController;
 
         protected bool inUse;
 
@@ -29,11 +30,11 @@ namespace Game.Core.InteractItems
             return inUse;
         }
 
-        internal async virtual void Start()
+        protected async virtual void Start()
         {
             var a = await Project.Get<GameWindowsService>();
             _canvasWindow = a.Get<CanvasWindow>();
-            
+
             source = GetComponent<AudioSource>();
             source.playOnAwake = false;
             source.loop = false;
@@ -44,10 +45,11 @@ namespace Game.Core.InteractItems
             {
                 rBody.isKinematic = true;
             }
+
             playerController = Project.ProjectContext.PlayerController;
         }
 
-        internal IEnumerator ThrowSound()
+        protected IEnumerator ThrowSound()
         {
             source = GetComponent<AudioSource>();
             yield return new WaitForSeconds(0.1f);
@@ -63,6 +65,7 @@ namespace Game.Core.InteractItems
             {
                 playerController = Project.ProjectContext.PlayerController;
             }
+
             base.gameObject.SetActive(value: true);
             base.transform.parent = parentTransform;
             base.transform.localPosition = Vector3.zero;
@@ -71,18 +74,27 @@ namespace Game.Core.InteractItems
             {
                 rBody = GetComponent<Rigidbody>();
             }
+
             if (rBody == null)
             {
                 rBody = base.gameObject.AddComponent<Rigidbody>();
             }
+
             rBody.isKinematic = true;
         }
 
-        public virtual void Throw(Transform throwDirection, float throwSpeed = 200f)
+        public void SetPos(Vector3 position)
+        {
+            rBody.isKinematic = true;
+            transform.position = position;
+            transform.rotation = Quaternion.identity;
+        }
+
+        public virtual void Throw(Transform throwDirection, float throwSpeed = 300)
         {
             base.transform.parent = null;
             rBody.isKinematic = false;
-            rBody.AddForce(throwDirection.forward * throwSpeed);
+            rBody.AddForce((throwDirection.forward + throwDirection.up / 2.5f) * throwSpeed);
             StartCoroutine(ThrowSound());
         }
 
@@ -95,8 +107,8 @@ namespace Game.Core.InteractItems
         public void SetInteractable(bool value)
         {
             isInteractible = value;
-            base.gameObject.layer = (value ? LayerMask.NameToLayer("Default") : LayerMask.NameToLayer("Ignore Raycast"));
+            base.gameObject.layer =
+                (value ? LayerMask.NameToLayer("Default") : LayerMask.NameToLayer("Ignore Raycast"));
         }
     }
-
 }

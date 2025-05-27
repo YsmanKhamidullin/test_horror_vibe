@@ -2,6 +2,7 @@
 using Cysharp.Threading.Tasks;
 using Game.Core.Architecture.Services.Base;
 using Game.Core.Canvas;
+using Game.Core.Canvas.Base;
 
 namespace Game.Core.Architecture.Services
 {

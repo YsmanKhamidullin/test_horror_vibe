@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Chinese (Simplified)
   m_GUID: dd826013e8c698e45ac502d6a82ff0f0
-  m_SerializeEntries:
-  - m_GUID: cfa1ce1a43d0d1941af2f156047b7661
-    m_Address: LocalizationTableString_zh
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-zh
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 135243a12dd95b44bbeb8f480e895c13, type: 2}
   m_SchemaSet:

@@ -2,6 +2,7 @@
 using Game.Core.Architecture;
 using Game.Core.Architecture.Services;
 using Game.Core.Canvas;
+using Game.Core.Canvas.Base;
 using Game.Core.InteractItems;
 using Game.Localization.Scripts;
 using UnityEngine;
@@ -12,6 +13,7 @@ namespace Game.Core.Player
     public class PlayerController : MonoBehaviour
     {
         public event Action OnHoldObject;
+        public event Action OnPutObject;
         public event Action OnThrowObject;
 
         [SerializeField]
@@ -38,9 +40,10 @@ namespace Game.Core.Player
             _inputService = await Project.Get<InputService>();
             var a = await Project.Get<GameWindowsService>();
             _canvasWindow = a.Get<CanvasWindow>();
-            
+
             _interactObject.FoundInteractObject += FoundInteractObject;
             _inputService.OnInteract += Interact;
+            _inputService.OnPut += PutItem;
             _inputService.OnThrow += ThrowItem;
             _inputService.OnZoom += OnZoom;
         }
@@ -60,6 +63,19 @@ namespace Game.Core.Player
 
         private void OnZoom()
         {
+        }
+
+        private void PutItem()
+        {
+            if (_currentHoldingObject == null)
+            {
+                return;
+            }
+
+            _currentHoldingObject.Throw(_cameraTransform, 50);
+            _currentHoldingObject = null;
+            _canvasWindow.ClearControlsText();
+            this.OnPutObject?.Invoke();
         }
 
         private void ThrowItem()
@@ -92,8 +108,9 @@ namespace Game.Core.Player
                 holdable.GoToPosition(_handPosition);
                 if (isThrowable)
                 {
-                    Debug.Log("Throw Controls Activated");
-                    _canvasWindow.ShowControlsText(LocalizationWrapper.Get("Throw"));
+                    var text = LocalizationWrapper.Get("Put") + "[F]" + "\n" +
+                               LocalizationWrapper.Get("Throw") + "[G]";
+                    _canvasWindow.ShowControlsText(text);
                 }
 
                 this.OnHoldObject?.Invoke();

@@ -1,13 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Game.Core.Canvas
+namespace Game.Core.Canvas.Base
 {
     public class CanvasWindow : BaseWindow
     {
         public bool _inCoversation;
+
+        [field: SerializeField]
+        public Transform VisualNovelParent { get; private set; }
+
+        [field: SerializeField]
+        public MoneyUi MoneyUi { get; private set; }
 
         [SerializeField]
         private GraphicRaycaster _graphicRaycaster;
@@ -22,8 +30,7 @@ namespace Game.Core.Canvas
         private TMP_Text _subText;
 
         private string _storedControlsText;
-        private Coroutine _subTexRoutine;
-        private float _subDuration;
+        private CancellationTokenSource _subTextCts;
 
         public void DisableRaycast()
         {
@@ -51,33 +58,42 @@ namespace Game.Core.Canvas
             _controlsText.text = text;
         }
 
-        private IEnumerator DeactivateSubAfterTime()
+        private async UniTask DeactivateSubAfterTimeAsync(float duration, CancellationToken cancellationToken)
         {
-            yield return new WaitForSeconds(_subDuration);
-            _subTexRoutine = null;
-            Image image = _subBackgroundShadow;
-            TMP_Text tMpText = _subText;
-            tMpText.enabled = false;
-            image.enabled = false;
-            yield return null;
-        }
-
-        public void ShowSubText(string text, float forTime = 5f)
-        {
-            _subDuration = forTime;
-            _subText.text = text;
-            Image image = _subBackgroundShadow;
-            bool flag2 = (_subText.enabled = true);
-            image.enabled = flag2;
-            if (_subTexRoutine == null)
+            await UniTask.Delay(TimeSpan.FromSeconds(duration), cancellationToken: cancellationToken);
+            if (cancellationToken.IsCancellationRequested)
             {
-                StartCoroutine(DeactivateSubAfterTime());
                 return;
             }
 
-            StopCoroutine(_subTexRoutine);
-            _subTexRoutine = null;
-            StartCoroutine(DeactivateSubAfterTime());
+            _subText.enabled = false;
+            _subBackgroundShadow.enabled = false;
+        }
+
+        public void ShowSubText(string text, float forTime = -1f)
+        {
+            if (Mathf.Approximately(forTime, -1f))
+            {
+                forTime = text.Length / 10f;
+            }
+
+            Debug.Log($"Text: {text}");
+
+            _subTextCts?.Cancel();
+            _subTextCts?.Dispose();
+            _subTextCts = new CancellationTokenSource();
+
+            _subText.text = text;
+            _subText.enabled = true;
+            _subBackgroundShadow.enabled = true;
+
+            DeactivateSubAfterTimeAsync(forTime, _subTextCts.Token).Forget();
+        }
+
+        protected void OnDestroy()
+        {
+            _subTextCts?.Cancel();
+            _subTextCts?.Dispose();
         }
     }
 }

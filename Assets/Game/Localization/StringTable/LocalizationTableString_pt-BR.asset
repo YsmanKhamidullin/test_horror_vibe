@@ -226,6 +226,26 @@ MonoBehaviour:
     m_Localized: Arremessar
     m_Metadata:
       m_Items: []
+  - m_Id: 94391348836429824
+    m_Localized: "Ah, que chuva. Boa noite, voc\xEA teria caf\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94391348882567168
+    m_Localized: "Quero um americano comum. Sim, eu sei, \xE9 um desafio para voc\xEAs."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485347942400
+    m_Localized: Colocar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274048
+    m_Localized: "Epis\xF3dio 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274049
+    m_Localized: Fechar menu
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -226,6 +226,26 @@ MonoBehaviour:
     m_Localized: Lanzar
     m_Metadata:
       m_Items: []
+  - m_Id: 94391348836429824
+    m_Localized: "Oh, qu\xE9 lluvia. Buenas noches, \xBFtendr\xE1 caf\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94391348882567168
+    m_Localized: "Quiero un americano normal. S\xED, lo s\xE9, es un reto para ustedes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485347942400
+    m_Localized: Poner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274048
+    m_Localized: Episodio 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274049
+    m_Localized: "Cerrar men\xFA"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

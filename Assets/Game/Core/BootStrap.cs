@@ -18,7 +18,7 @@ namespace Game.Core
             await Project.Initialize();
             await UniTask.WaitForEndOfFrame();
             await UniTask.WaitForEndOfFrame();
-            SceneService.LoadGameScene();
+            SceneService.LoadMenuScene();
         }
     }
 }

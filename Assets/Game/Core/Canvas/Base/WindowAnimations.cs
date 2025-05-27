@@ -2,7 +2,7 @@ using Cysharp.Threading.Tasks;
 using Game.Core.Utils;
 using UnityEngine;
 
-namespace Game.Core.Canvas
+namespace Game.Core.Canvas.Base
 {
     public class WindowAnimations
     {

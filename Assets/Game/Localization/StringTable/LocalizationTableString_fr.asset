@@ -226,6 +226,27 @@ MonoBehaviour:
     m_Localized: Lancer
     m_Metadata:
       m_Items: []
+  - m_Id: 94391348836429824
+    m_Localized: "Oh, quelle pluie. Bonsoir, auriez-vous du caf\xE9 ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94391348882567168
+    m_Localized: "Je veux un americano basique. Oui, je sais, c'est un d\xE9fi pour
+      vous."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485347942400
+    m_Localized: Poser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274048
+    m_Localized: "\xC9pisode 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274049
+    m_Localized: Fermer le menu
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

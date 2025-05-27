@@ -10,6 +10,8 @@ namespace Game.Core.Architecture.Services
 
         public event InputControl OnInteract;
 
+        public event InputControl OnPut;
+        
         public event InputControl OnThrow;
 
         public event InputControl OnZoom;
@@ -55,6 +57,11 @@ namespace Game.Core.Architecture.Services
                 if (Input.GetKeyDown(KeyCode.G) && _inputService.OnThrow != null)
                 {
                     _inputService.OnThrow();
+                }
+
+                if (Input.GetKeyDown(KeyCode.F) && _inputService.OnPut != null)
+                {
+                    _inputService.OnPut();
                 }
 
                 if (Input.GetMouseButtonDown(1) && _inputService.OnZoom != null)

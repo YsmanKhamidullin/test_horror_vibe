@@ -223,6 +223,26 @@ MonoBehaviour:
     m_Key: HandsFull
     m_Metadata:
       m_Items: []
+  - m_Id: 94391348836429824
+    m_Key: 01_Npc_text_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94391348882567168
+    m_Key: 01_Npc_text_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485347942400
+    m_Key: Put
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274048
+    m_Key: episode_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94481485398274049
+    m_Key: close
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

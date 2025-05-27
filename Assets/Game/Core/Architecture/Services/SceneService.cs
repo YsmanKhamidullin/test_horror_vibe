@@ -25,9 +25,20 @@ namespace Game.Core.Architecture.Services
         {
         }
 
+        public static bool IsInGameScene()
+        {
+            var curScene = SceneManager.GetActiveScene().buildIndex;
+            return curScene == 2;
+        }
+
         public static void LoadBoot()
         {
             LoadScene("Boot");
+        }
+
+        public static void LoadMenuScene()
+        {
+            LoadScene("Menu");
         }
 
         public static void LoadGameScene()

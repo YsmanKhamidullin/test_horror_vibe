@@ -19,21 +19,6 @@ public class interactableObjectUI : MonoBehaviour
 
     private Iinteractable lastInteracted;
 
-    [SerializeField]
-    private Camera thisCamera;
-
-    [SerializeField]
-    private Camera firstpersonCamera;
-
-    [SerializeField]
-    private Camera SittingCamera;
-
-
-    private void Awake()
-    {
-        thisCamera = Camera.main;
-    }
-
     private void Start()
     {
         dot = GetComponent<Image>();
@@ -62,10 +47,5 @@ public class interactableObjectUI : MonoBehaviour
             dot.enabled = false;
             FoundInteractObject?.Invoke(null);
         }
-    }
-
-    public void ChangeCamera(Camera currentCamera)
-    {
-        thisCamera = currentCamera;
     }
 }
